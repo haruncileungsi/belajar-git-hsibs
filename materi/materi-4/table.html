@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Table</title>
+    <style>
+        table{
+            width: 50;
+            border-color: collapse /** gabungan border tabel jadi 1 **/;
+        }
+        td,
+        th {
+            padding: 6px;
+        }
+        th {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Belajar Table Di HTML</h1>
+    <hr>
+    <!-- attr border 1 => garis tepi 1px -->
+    <table border="1">
+        <!-- tr>td*3: buat struktur baris * 3 kolom -->
+        <tr>
+            <td>No</td>
+            <td>Nama Lenkap</td>
+            <td>Asal KOta/Kab</td>
+            <td>Kewrganegaraan</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Harun</td>
+            <td>Bogor</td>
+            <td>indonesia</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Azzam</td>
+            <td>Tasik</td>
+            <td>rusia</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Abdul hakim</td>
+            <td>solo</td>
+            <td>Amerika</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Faiz</td>
+            <td>Bekasi</td>
+            <td>israel</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Juna</td>
+            <td>Jakarta</td>
+            <td>Palestia</td>
+        </tr>
+    </table>
+    <!-- standar table di html 5 -->
+    <!-- table>thead+tbady+tfoot -->
+    <h2>Daftar belanjaan</h2>
+    <table border="1">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Barang</th>
+            <th>Harga</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Es Teh Desa</td>
+            <td>Rp 2.500,-</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Olove</td>
+            <td>Rp 10.000,-</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Gorengan</td>
+            <td>Rp 5.000,-</td>
+          </tr>
+            <tr>
+            <td>4</td>
+            <td>Gabin</td>
+            <td>Rp 2.500,-</td>
+          </tr>
+            <tr>
+            <td>5</td>
+            <td>cilok</td>
+            <td>Rp 5.000,-</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td></td>
+            <td>Total Pengeluaran</td>
+            <td>Rp 25.000,-</td>
+          </tr>
+        </tfoot>
+    </table>
+    <h2>Daftar Piket</h2>
+    <p><b>Belajar attribute 'rowspan' dan 'colspan</b></p>
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="2">No</th>
+                <th colspan="7">pekan 1</th>
+            </tr>
+            <tr>
+                <th>Senin</th>
+                <th>Selasa</th>
+                <th>Rabu</th>
+                <th>Kmis</th>
+                <th>Jumat</th>
+                <th>Sabtu</th>
+                <th>Ahad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Harun</td>
+                <td>Syahid</td>
+                <td>Hakim</td>
+                <td>Azzam</td>
+                <td>Udin</td>
+                <td>Juna</td>
+                <td>Fazin</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

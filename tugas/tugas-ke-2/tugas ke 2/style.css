@@ -1,0 +1,139 @@
+/* Style umum */
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafc;
+  margin: 0;
+  padding: 20px;
+  color: #131010;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header .logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  margin: 5px 0;
+  color: #1a237e;
+}
+
+.header h3 {
+  margin: 0;
+  font-weight: normal;
+  color: #131010;
+}
+
+/* Box konten */
+.box {
+  background: #f8ebeb;
+  padding: 15px 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 700px;
+  box-shadow: 0 2px 5px rgba(29, 27, 27, 0.1);
+}
+
+/* Judul dalam box */
+.judul-box {
+  border-left: 5px solid #af7313;
+  padding-left: 10px;
+  color: #111b85;
+  margin-top: 0;
+}
+
+/* Avatar */
+.avatar {
+  width: 12px;
+  border-radius: 50%;
+  display: block;
+  margin: 15px 0;
+}
+
+/* Footer link */
+.footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #083e7c;
+  font-weight: bold;
+}
+/* Style umum */
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafc;
+  margin: 0;
+  padding: 20px;
+  color: #181111;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 5px 0;
+  color: #131e92;
+}
+
+.header h3 {
+  margin: 0;
+  font-weight: normal;
+  color: #241f1f;
+}
+
+/* Box konten */
+.box {
+  background: #fff;
+  padding: 15px 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 700px;
+  box-shadow: 0 4px 5px rgba(17, 17, 17, 0.1);
+}
+
+/* Judul dalam box */
+.judul-box {
+  border-left: 5px solid #f9a825;
+  padding-left: 10px;
+  color: #1a237e;
+  margin-top: 0;
+}
+
+/* Foto Profil */
+.avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: block;
+  margin: 15px 0;
+  margin: 10px auto;
+}
+.judul-box {
+  border-left: 5px solid #f9a825;
+  padding-left: 10px;
+  color: #1a237e;
+  margin-top: 0;
+}
+
+/* Footer link */
+.footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #1565c0;
+  font-weight: bold;
+}
